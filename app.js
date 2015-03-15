@@ -9,7 +9,6 @@ util.readUserData(function(err,userName,password){
             console.error(err);
             process.exit(1);
         }
-        process.exit(1);
     });
 });
 
