@@ -1,5 +1,5 @@
 #安装步骤
-1、下载并安装nodejs的安装包（windows下）https://nodejs.org/download/
+1、下载并安装nodejs（使用windows下的msi安装包）https://nodejs.org/download/
 2、运行install.bat安装项目的依赖库
 
 #使用步骤
