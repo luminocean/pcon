@@ -19,6 +19,9 @@ exports.readUserData = function(callback){
         var pieces = data.toString().split('\n');
         var userName = new Buffer(pieces[0],'base64');
         var password = new Buffer(pieces[1],'base64');
-        callback(null,userName,password);
+        callback(null,{
+            "userName":userName,
+            "password":password
+        });
     });
 };
