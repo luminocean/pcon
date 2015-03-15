@@ -1,1 +1,5 @@
-.\env\nodejs\npm install
+npm install
+
+if errorlevel 1 (
+   pause
+)

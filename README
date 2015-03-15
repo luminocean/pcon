@@ -1,5 +1,7 @@
-#使用步骤，步骤1和2仅需要运行一次
+#安装步骤
+1、下载并安装nodejs的安装包（windows下）https://nodejs.org/download/
+2、运行install.bat安装项目的依赖库
 
-1、运行install.bat安装项目的依赖库
-2、运行register.bat注册自己的用户名和密码（数据都存在本地，位于data/user文件下面）
-3、运行pcon即可发出连接请求，连接校园网
+#使用步骤
+1、运行register.bat注册自己的用户名和密码（数据都存在本地，位于data/user文件下面，只需要运行一次）
+2、运行pcon即可发出连接请求，连接校园网
