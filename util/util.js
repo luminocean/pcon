@@ -3,11 +3,6 @@ var path = require('path');
 
 var userDataPath = path.join(__dirname,'../','data/user');
 
-exports.decode = function(code){
-    var encoded = new Buffer(code,'base64');
-    return encoded.toString();
-};
-
 /**
  * 从文件中读取用户信息,解码后返回
  * @param callback

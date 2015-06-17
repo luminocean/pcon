@@ -1,3 +1,7 @@
+/**
+ * 用户注册自己用户名密码信息的程序，一般由外部的bat来调用
+ */
+
 var readline = require('readline');
 var fs = require('fs');
 var path = require('path');

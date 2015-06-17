@@ -2,12 +2,10 @@ var request = require('request');
 
 exports.login = function(userName,password,callback){
     var requestObj = {
-        "url":"http://p.nju.edu.cn/portal/portal_io.do",
+        "url":"http://p.nju.edu.cn/portal_io/login",
         "method":"POST",
         "timeout":10000,
-        "form":{
-            action:'login'
-        }
+        "form":{}
     };
     requestObj.form.username = userName;
     requestObj.form.password = password;
